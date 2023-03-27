@@ -411,3 +411,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc5257ef1597f4e479091f1615fa74c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerName: Elder Maxon
+  playerHP: 500
+  playerDamage: 150
+  playerSkills:
+  - Power Armor
+  - Gatling Laser
