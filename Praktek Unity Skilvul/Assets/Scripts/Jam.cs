@@ -21,9 +21,9 @@ public class Jam : MonoBehaviour
         float menit = 0;
         float jam = 0;
 
-        detik += speed * Time.deltaTime;
-        menit += (speed - 50) * Time.deltaTime;
-        jam += (speed - 80) * Time.deltaTime;
+        detik += - speed * Time.deltaTime;
+        menit += - (speed - 80) * Time.deltaTime;
+        jam += - (speed - 90) * Time.deltaTime;
 
 
         pivotDetik.Rotate(new Vector3(0, 0, detik));
