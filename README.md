@@ -1,2 +1,2 @@
 # PraktekUnitySkilvul
-File untuk studi independen game development
+Folder saat melakukan praktikum di live class studi independen Skilvul Game Development
