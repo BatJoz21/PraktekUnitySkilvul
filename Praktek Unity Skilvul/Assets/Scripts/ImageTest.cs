@@ -11,13 +11,18 @@ public class ImageTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        img.sprite = sprt;
-        img.color = new Color(255, 0, 0);
+        //img.sprite = sprt;
+        //img.color = new Color(255, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void changeImage()
+    {
+        img.sprite = sprt;
     }
 }

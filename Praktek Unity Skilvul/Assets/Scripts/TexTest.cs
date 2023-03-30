@@ -12,8 +12,7 @@ public class TexTest : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        tmpxt.text = txt;
-        tmpxt.color = color;
+        
 
     }
 
@@ -21,5 +20,18 @@ public class TexTest : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ChangeColor(bool isBlue)
+    {
+        if (isBlue)
+        {
+            tmpxt.color = Color.yellow;
+            
+        }
+        else
+        {
+            tmpxt.color = Color.blue;
+        }
     }
 }
